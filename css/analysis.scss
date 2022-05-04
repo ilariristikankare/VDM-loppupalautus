@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Chathura:wght@100;300;400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chathura:wght@100;300;400;700;800&family=M+PLUS+1p:wght@300;400&display=swap");
+
+body {
+  background: linear-gradient(
+    180deg,
+    rgba(215, 215, 215, 1) 0%,
+    rgba(106, 61, 61, 1) 50%
+  );
+  margin: 0;
+  font-family: "Chathura", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background: #7c0404;
+}
+
+.logotextimg {
+  margin-top: 1.5em;
+  margin-left: 6em;
+}
+
+.logoimg {
+  margin-left: 1em;
+}
+
+.primary-nav {
+  display: flex;
+  width: 100%;
+  a {
+    font-size: 2.5em;
+    font-weight: 800;
+    color: #f0a0a0;
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-basis: 100%;
+
+    &:hover {
+      color: black;
+      background: #da2424;
+    }
+  }
+}
+
+.hero-container {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+}
+
+.modal {
+  margin-left: 2em;
+  margin-right: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  font-size: 2.5em;
+}
+
+.acontent-text {
+  margin-left: 10em;
+  margin-right: 10em;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 0.4em;
+  font-weight: normal;
+}
+
+.title {
+  margin: 0;
+  font-size: 2em;
+  font-weight: normal;
+}
+
+.modal-header2 {
+  margin-top: 10em;
+}
