@@ -56,14 +56,17 @@ h2 {
   margin: 0;
 }
 
-.modal {
+.modal-header1 {
   margin-left: 2em;
   margin-right: 2em;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-
+  flex-direction: column;
   font-size: 2.5em;
+}
+
+.modal-1 {
+  display: flex;
+  flex-direction: row;
 }
 
 .acontent-text {
@@ -81,5 +84,15 @@ h2 {
 }
 
 .modal-header2 {
-  margin-top: 10em;
+  margin-left: 2em;
+  margin-right: 2em;
+  display: flex;
+  flex-direction: column;
+  font-size: 2.5em;
+}
+
+.modal-2 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2em;
 }
