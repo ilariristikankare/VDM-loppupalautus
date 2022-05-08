@@ -87,8 +87,8 @@ h2 {
 }
 
 .acontent-text {
-  margin-left: 10em;
-  margin-right: 10em;
+  margin-left: 15em;
+  margin-right: 15em;
   font-family: "M PLUS 1p", sans-serif;
   font-size: 0.4em;
   font-weight: normal;
@@ -96,7 +96,7 @@ h2 {
 
 .title {
   margin: 0;
-  font-size: 2em;
+  font-size: 1.8em;
   font-weight: normal;
 }
 
