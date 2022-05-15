@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Chathura:wght@100;300;400;700;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Chathura:wght@100;300;400;700;800&family=M+PLUS+1p:wght@300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Chathura:wght@100;300;400;700;800&family=M+PLUS+1p:wght@300;400&display=swap');
 
 body {
   background: linear-gradient(
@@ -68,17 +68,19 @@ h2 {
 }
 
 .acontent-text {
-  margin-left: 15em;
-  margin-right: 15em;
+  margin-left: 17em;
+  margin-right: 17em;
   font-family: "M PLUS 1p", sans-serif;
   font-size: 0.4em;
   font-weight: normal;
 }
 
 .title {
-  margin: 0;
-  font-size: 1.8em;
-  font-weight: normal;
+  margin-left: 4.5em;
+  margin-right: 4.5em;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 1em;
+  font-weight: bold;
 }
 
 .modal-header2 {
