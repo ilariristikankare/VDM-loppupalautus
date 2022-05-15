@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Chathura:wght@100;300;400;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Chathura:wght@100;300;400;700;800&family=M+PLUS+1p:wght@300;400&display=swap");
-
 body {
   background: linear-gradient(
     180deg,
@@ -11,18 +10,18 @@ body {
   font-family: "Chathura", sans-serif;
 }
 
-p {
-  scroll-margin: 0;
-  margin: 0;
-  padding: 0;
-}
-
 * {
   padding: 0;
   margin: 0;
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+}
+
+p {
+  scroll-margin: 0;
+  margin: 0;
+  padding: 0;
 }
 
 nav {
@@ -131,13 +130,114 @@ nav ul li a:hover {
   margin-left: 25px;
 }
 
+.hero-container {
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.about-text {
+  margin-left: 1em;
+  margin-right: 1em;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 0.4em;
+  font-weight: normal;
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+}
+
+.title {
+  margin-left: 1em;
+  margin-top: 1em;
+  font-size: 5em;
+}
+
+.about-text {
+  margin-left: 2em;
+  margin-right: 3em;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.fcf-body {
+  margin-right: 5em;
+  margin-left: 2em;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+.fcf-form-control {
+  width: 600px;
+  min-width: 600px;
+  max-width: 600px;
+  height: auto;
+}
+
+@media only screen and (max-width: 1260px) {
+  .modal {
+    flex-direction: column;
+  }
+
+  .about-text {
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+
+  .fcf-btn {
+    margin-bottom: 5vw;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .fcf-form-control {
+    width: 100%;
+    min-width: 80vw;
+    max-width: 80vw;
+    height: auto;
+  }
+}
+
 @media only screen and (max-width: 600px) {
-  
-    .logotextimg {
-      margin-left: 10px;
-    }
-    
-    .logoimg {
-      margin-left: 10px;
-    }
+  .logotextimg {
+    margin-left: 10px;
+  }
+
+  .logoimg {
+    margin-left: 10px;
+  }
+
+  .about-text {
+    margin-top: 0;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    font-size: 3.5vw;
+  }
+
+  .title {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    font-size: 15vw;
+    margin-top: 12vh;
+  }
+
+  .fcf-form-control {
+    width: 100%;
+    min-width: 50vw;
+    max-width: 50vw;
+    height: auto;
+  }
 }

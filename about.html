@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VDM</title>
     <link rel="stylesheet" href="normalize.css" />
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/about.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -39,30 +39,93 @@
 
     <section class="hero">
       <div class="hero-container">
+        <h2 class="title">About Us</h2>
         <div class="modal" id="modal">
-          <div class="modal-header1">
-            <h2 class="title">About Us</h2>
-            <p>
-              VDM Anti Disinfo Project on valtiollisesti riippumaton kampanja,
-              jonka tavoitteena on vahvistaa sekä venäläis- että
-              eurooppalaisväestön medialukutaitoa modernin mediavaikuttamisen
-              sekä valtiollisen disinformaation leviämisen estämiseksi.
-              <br /><br />
-              Kaikille ihmisille on kerrottava totuus Venäjän häikäilemättömistä
-              ihmisoikeusrikkomuksista niin Venäjällä kuin Ukrainassa. Karu
-              todellisuus Venäjän vuosikymmeniä kestäneestä kleptokraattisesta
-              autoritarismista ja sen voimistuvasta imperialismista on
-              paljastettava. <br /><br />
-              Käyttäen useita eri lähteitä ja medioita VDM Anti Disinfo Project
-              kokoaa yhteen ja paljastaa Venäjän valtiollista disinformaatiota
-              ja vaikuttamisyrityksiä Euroopassa. Toimimme yhteistyössä eri
-              ihmisoikeusjärjestöjen kanssa pitääksemme suoran yhteyden
-              kampanjamme tavoitteeseen.<br /><br />
-              Tiimimme on aktiivisesti yhteydessä eri medioihin,
-              ajatushautomoihin ja valtiollisiin toimijoihin ympäri Eurooppaa,
-              joiden avulla kokoamme yhteen oleellisimmat kehitykset Venäjän
-              valtiollisen mielipidevaikuttamisen ja disinformaation kentiltä.
-            </p>
+          <p class="about-text">
+            VDM Anti Disinfo Project on valtiollisesti riippumaton kampanja,
+            jonka tavoitteena on vahvistaa sekä venäläis- että
+            eurooppalaisväestön medialukutaitoa modernin mediavaikuttamisen sekä
+            valtiollisen disinformaation leviämisen estämiseksi.
+            <br /><br />
+            Kaikille ihmisille on kerrottava totuus Venäjän häikäilemättömistä
+            ihmisoikeusrikkomuksista niin Venäjällä kuin Ukrainassa. Karu
+            todellisuus Venäjän vuosikymmeniä kestäneestä kleptokraattisesta
+            autoritarismista ja sen voimistuvasta imperialismista on
+            paljastettava. <br /><br />
+            Käyttäen useita eri lähteitä ja medioita VDM Anti Disinfo Project
+            kokoaa yhteen ja paljastaa Venäjän valtiollista disinformaatiota ja
+            vaikuttamisyrityksiä Euroopassa. Toimimme yhteistyössä eri
+            ihmisoikeusjärjestöjen kanssa pitääksemme suoran yhteyden
+            kampanjamme tavoitteeseen.<br /><br />
+            Tiimimme on aktiivisesti yhteydessä eri medioihin, ajatushautomoihin
+            ja valtiollisiin toimijoihin ympäri Eurooppaa, joiden avulla
+            kokoamme yhteen oleellisimmat kehitykset Venäjän valtiollisen
+            mielipidevaikuttamisen ja disinformaation kentiltä.
+          </p>
+          <div class="fcf-body">
+            <div id="fcf-form">
+              <h3 class="fcf-h3">Contact us</h3>
+
+              <form
+                id="fcf-form-id"
+                class="fcf-form-class"
+                method="post"
+                action="contact-form-process.php"
+              >
+                <div class="fcf-form-group">
+                  <label for="Name" class="fcf-label">Your name</label>
+                  <div class="fcf-input-group">
+                    <input
+                      type="text"
+                      id="Name"
+                      name="Name"
+                      class="fcf-form-control"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="fcf-form-group">
+                  <label for="Email" class="fcf-label"
+                    >Your email address</label
+                  >
+                  <div class="fcf-input-group">
+                    <input
+                      type="email"
+                      id="Email"
+                      name="Email"
+                      class="fcf-form-control"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="fcf-form-group">
+                  <label for="Message" class="fcf-label">Your message</label>
+                  <div class="fcf-input-group">
+                    <textarea 
+                      id="Message"
+                      name="Message"
+                      class="fcf-form-control"
+                      rows="6"
+                      maxlength="3000"
+                      required
+                    ></textarea>
+                  </div>
+                </div>
+
+                <div class="fcf-form-group">
+                  <button
+                    type="submit"
+                    id="fcf-button"
+                    class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block"
+                  >
+                    Send Message
+                  </button>
+                </div>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>
