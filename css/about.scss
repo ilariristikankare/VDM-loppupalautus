@@ -131,107 +131,13 @@ nav ul li a:hover {
   margin-left: 25px;
 }
 
-.hero-container {
-  margin: 0;
-  display: flex;
-  align-items: center;
-}
-
-h2 {
-  margin: 0;
-  text-align: center;
-}
-
-.modal {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-
-.modal-header1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.acontent-text {
-  margin-left: 17em;
-  margin-right: 17em;
-  margin-top: 5em;
-  margin-bottom: 5em;
-  font-family: "M PLUS 1p", sans-serif;
-  font-size: 1em;
-  font-weight: normal;
-}
-
-.title {
-  margin-top: 5em;
-  margin-left: 4.5em;
-  margin-right: 4.5em;
-  font-family: "M PLUS 1p", sans-serif;
-  font-size: 2.5em;
-  font-weight: bold;
-}
-
-.modal-header2 {
-  margin-top: 10em;
-}
-
-@media only screen and (max-width: 1280px) {
-  .acontent-text {
-    margin-left: 12em;
-    margin-right: 12em;
-  }
-}
-
-@media only screen and (max-width: 1080px) {
-  .acontent-text {
-    margin-left: 8em;
-    margin-right: 8em;
-  }
-
-  .title {
-    margin-left: 3em;
-    margin-right: 3em;
-  }
-}
-
-@media only screen and (max-width: 960px) {
-  .acontent-text {
-    margin-left: 2em;
-    margin-right: 2em;
-    font-size: 100%;
-  }
-
-  .title {
-    margin-left: 2em;
-    margin-right: 2em;
-    font-size: 2em;
-  }
-}
-
 @media only screen and (max-width: 600px) {
-  .acontent-text {
-    margin-left: 1.5em;
-    margin-right: 1.5em;
-    font-size: 3.5vw;
-  }
-
-  .title {
-    margin-left: 1.5em;
-    margin-right: 1.5em;
-    font-size: 5vw;
-    margin-top: 20vh;
-  }
-
-  .logotextimg {
-    margin-left: 10px;
-  }
   
-  .logoimg {
-    margin-left: 10px;
-  }
-
-
+    .logotextimg {
+      margin-left: 10px;
+    }
+    
+    .logoimg {
+      margin-left: 10px;
+    }
 }

@@ -49,8 +49,8 @@ nav ul li a {
 
 nav ul li a:hover {
   background: #da2424;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .checkbtn {
@@ -67,7 +67,7 @@ nav ul li a:hover {
   display: none;
 }
 
-@media (max-width: 858px) {
+@media (max-width: 960px) {
   .checkbtn {
     display: block;
   }
@@ -80,8 +80,8 @@ nav ul li a:hover {
     top: 100px;
     left: -100%;
     text-align: center;
-    -webkit-transition: all .5s;
-    transition: all .5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
   }
   nav ul li {
     display: block;
@@ -180,6 +180,10 @@ h2 {
   margin: 0;
   font-size: 2em;
   font-weight: normal;
+}
+
+.title1 {
+  margin-top: 10vw;
 }
 
 .modal-header2 {
@@ -415,6 +419,37 @@ h2 {
   }
   .modal-2 p {
     margin-top: 2em;
+  }
+  .title1 {
+    margin-top: 12vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .acontent-text {
+    font-size: 4vw;
+  }
+  .logotextimg {
+    margin-left: 10px;
+  }
+  .logoimg {
+    margin-left: 10px;
+  }
+  .modal-header1 {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+  .modal-header2 {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+  .title {
+    margin-top: 0.2em;
+    font-size: 20vw;
+  }
+  .title1 {
+    margin-top: 20vw;
+    font-size: 23vw;
   }
 }
 /*# sourceMappingURL=main.css.map */
