@@ -26,3 +26,12 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block"; 
   dots[slideIndex-1].className += " active";
 }
+
+function myFunction() {
+  var x = document.getElementById("primary-nav");
+  if (x.className === "primary-nav") {
+    x.className += " responsive";
+  } else {
+    x.className = "primary-nav";
+  }
+}

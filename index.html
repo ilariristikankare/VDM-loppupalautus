@@ -6,26 +6,33 @@
     <title>VDM</title>
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
   </head>
 
   <body>
-    <div class="navbar1">
-      <div class="container">
-        <nav class="navbar">
-          <a href="index.html"
-            ><img class="logotextimg" src="logo-text.svg" alt="logo-text"
-          /></a>
-          <a href="index.html"
-            ><img class="logoimg" src="logo.svg" alt="logo"
-          /></a>
-          <div class="primary-nav">
-            <a href="analysis.html">analysis</a>
-            <a href="posts.html">posts</a>
-            <a href="index.html">about</a>
-          </div>
-        </nav>
-      </div>
-    </div>
+
+     <div class="navbar">
+      <nav>
+        <a href="index.html"
+          ><img width="100px" class="logotextimg" src="logo-text.svg" alt="logo-text"
+        /></a>
+        <a href="index.html"
+          ><img width="100px" class="logoimg" src="logo.svg" alt="logo"
+        /></a>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+          <li><a href="analysis.html">analysis</a></li>
+          <li><a href="posts.html">posts</a></li>
+          <li><a href="index.html">about</a></li>
+        </ul>
+      </nav>
+    </div> 
 
     <section class="hero">
       <div class="hero-container">
@@ -55,9 +62,10 @@
               Nato-vastaista mustamaalaamista sekä välittäjävalemedioiden ja
               yhdyshenkilöiden kautta levitettävää pelottelua ja uhkailua.
             </p>
-            <video class="video" width="640" height="360" controls>
+            <video class="video" controls>
               <source src="mainosvideo.mp4" type="video/mp4" />
               <source src="mainosvideo.ogg" type="video/ogg" />
+              joo
             </video>
           </div>
         </div>
