@@ -17,6 +17,8 @@ body {
 }
 
 nav {
+  position: fixed;
+  z-index: 9998;
   background: #7c0404;
   height: 100px;
   width: 100%;
@@ -71,6 +73,7 @@ nav ul li a:hover {
   }
   ul {
     position: fixed;
+    z-index: 9999;
     width: 100%;
     height: 100vh;
     background: #250505;
