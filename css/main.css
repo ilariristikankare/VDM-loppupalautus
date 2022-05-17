@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Chathura:wght@100;300;400;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Chathura:wght@100;300;400;700;800&family=M+PLUS+1p:wght@300;400&display=swap");
 body {
-  background: -webkit-gradient(linear, left top, left bottom, from(#d7d7d7), color-stop(50%, #6a3d3d));
-  background: linear-gradient(180deg, #d7d7d7 0%, #6a3d3d 50%);
+  background: black;
   margin: 0;
   font-family: "Chathura", sans-serif;
 }
@@ -166,9 +165,11 @@ h2 {
 .video {
   width: 640px;
   height: 320px;
+  border: 5px solid #7c0404;
 }
 
 .acontent-text {
+  color: white;
   margin-left: 1em;
   margin-right: 1em;
   font-family: "M PLUS 1p", sans-serif;
@@ -177,12 +178,14 @@ h2 {
 }
 
 .title {
+  color: white;
   margin: 0;
   font-size: 2em;
   font-weight: normal;
 }
 
 .title1 {
+  color: white;
   margin-top: 10vw;
 }
 
@@ -214,6 +217,9 @@ h2 {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 * {
@@ -223,7 +229,7 @@ h2 {
 
 /* Slideshow container */
 .slideshow-container {
-  width: 600px;
+  width: 400px;
   height: auto;
   position: relative;
   margin: auto;
@@ -348,7 +354,7 @@ h2 {
   margin: 0;
   padding: 0;
   width: 100%;
-  max-width: 600px;
+  max-width: 400px;
   height: auto;
 }
 

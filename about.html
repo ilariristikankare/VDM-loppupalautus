@@ -62,6 +62,7 @@
             kokoamme yhteen oleellisimmat kehitykset Venäjän valtiollisen
             mielipidevaikuttamisen ja disinformaation kentiltä.
           </p>
+
           <div class="fcf-body">
             <div id="fcf-form">
               <h3 class="fcf-h3">Contact us</h3>
@@ -69,8 +70,6 @@
               <form
                 id="fcf-form-id"
                 class="fcf-form-class"
-                method="post"
-                action="contact-form-process.php"
               >
                 <div class="fcf-form-group">
                   <label for="Name" class="fcf-label">Your name</label>
@@ -109,18 +108,26 @@
                       class="fcf-form-control"
                       rows="6"
                       maxlength="3000"
+                      placeholder="Your message here"
                       required
                     ></textarea>
                   </div>
                 </div>
 
                 <div class="fcf-form-group">
-                  <button
-                    type="submit"
-                    id="fcf-button"
-                    class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block"
-                  >
-                    Send Message
+                  <button type="submit"
+                  id="fcf-button"
+                  class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block"
+                  onclick="sendMail(); return false">
+                    <div class="svg-wrapper-1">
+                      <div class="svg-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                          <path fill="none" d="M0 0h24v24H0z"></path>
+                          <path fill="currentColor" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
+                        </svg>
+                      </div>
+                    </div>
+                    <span>Send Message</span>
                   </button>
                 </div>
                 </div>
@@ -131,6 +138,27 @@
       </div>
     </section>
 
-    <script src="index2.js"></script>
+    <script>
+
+      function sendMail() {
+
+        const emailaddress = document.getElementById('Email')
+        const message = document.getElementById('Message')
+        const name = document.getElementById('Name')
+
+        if(emailaddress.value ==="" || name.value ===""){
+          alert("Fields email and name can't be empty")
+        }
+        else {
+          var link = "mailto:ilari.ristikankare@gmail.com"
+                  + "?cc=" + encodeURIComponent(emailaddress.value)
+                  + "&subject=" + encodeURIComponent("VDM kampanja yhteydenotto ") + encodeURIComponent(name.value)
+                  + "&body=" + encodeURIComponent(message.value);
+                  window.location.href = link;
+        }
+      }
+      
+
+    </script>
   </body>
 </html>

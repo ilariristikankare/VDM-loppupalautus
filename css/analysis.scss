@@ -2,11 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Chathura:wght@100;300;400;700;800&family=M+PLUS+1p:wght@300;400&display=swap");
 
 body {
-  background: linear-gradient(
-    180deg,
-    rgba(215, 215, 215, 1) 0%,
-    rgba(106, 61, 61, 1) 50%
-  );
+  background: black;
   margin: 0;
   font-family: "Chathura", sans-serif;
 }
@@ -156,6 +152,7 @@ h2 {
 }
 
 .acontent-text {
+  color: white;
   margin-left: 17em;
   margin-right: 17em;
   margin-top: 5em;
@@ -166,6 +163,7 @@ h2 {
 }
 
 .title {
+  color: white;
   margin-top: 5em;
   margin-left: 4.5em;
   margin-right: 4.5em;
@@ -232,6 +230,4 @@ h2 {
   .logoimg {
     margin-left: 10px;
   }
-
-
 }

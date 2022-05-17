@@ -1,11 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Chathura:wght@100;300;400;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Chathura:wght@100;300;400;700;800&family=M+PLUS+1p:wght@300;400&display=swap");
 body {
-  background: linear-gradient(
-    180deg,
-    rgba(215, 215, 215, 1) 0%,
-    rgba(106, 61, 61, 1) 50%
-  );
+  background: black;
   margin: 0;
   font-family: "Chathura", sans-serif;
 }
@@ -138,6 +134,7 @@ nav ul li a:hover {
 }
 
 .about-text {
+  color: white;
   margin-left: 1em;
   margin-right: 1em;
   font-family: "M PLUS 1p", sans-serif;
@@ -146,6 +143,7 @@ nav ul li a:hover {
 }
 
 h2 {
+  color: white;
   margin: 0;
   text-align: center;
 }
@@ -173,6 +171,7 @@ h2 {
 }
 
 .fcf-body {
+  color: white;
   margin-right: 5em;
   margin-left: 2em;
   font-family: "M PLUS 1p", sans-serif;
@@ -209,6 +208,10 @@ h2 {
     max-width: 80vw;
     height: auto;
   }
+
+  .about-text {
+    margin-top: 0;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -240,4 +243,86 @@ h2 {
     max-width: 50vw;
     height: auto;
   }
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 20px;
+  background: #7c0404;
+  color: white;
+  padding: 0.7em 1em;
+  padding-left: 0.9em;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.2s;
+ }
+ 
+ button span {
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
+ }
+ 
+ button svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+ }
+ 
+ button:hover .svg-wrapper {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+ }
+ 
+ button:hover svg {
+  transform: translateX(1.2em) rotate(45deg) scale(1.1);
+ }
+ 
+ button:hover span {
+  transform: translateX(5em);
+ }
+ 
+ button:active {
+  transform: scale(0.95);
+ }
+ 
+ @keyframes fly-1 {
+  from {
+   transform: translateY(0.1em);
+  }
+ 
+  to {
+   transform: translateY(-0.1em);
+  }
+ }
+ 
+ input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
