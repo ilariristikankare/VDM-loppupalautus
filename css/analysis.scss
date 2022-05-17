@@ -226,8 +226,56 @@ h2 {
   .logotextimg {
     margin-left: 10px;
   }
-  
+
   .logoimg {
     margin-left: 10px;
   }
+}
+
+.text_div {
+  color: white;
+}
+
+.comment_box {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.comment_button {
+  margin-bottom: 10vh;
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #ffffff;
+  background-color: #000000;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "M PLUS 1p", sans-serif;
+  font-weight: 800;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.5s;
+}
+.comment_button:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.comment-text{
+  text-align: left;
+  color: white;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 1em;
+  font-weight: normal;
 }

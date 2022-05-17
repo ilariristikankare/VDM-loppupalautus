@@ -202,11 +202,27 @@
               trollin kirjoittaman kommentin, kritiikin tai epäilyksen ja jakaa
               ajatuksen seuraavalle.
             </p>
+            <div class="comment_section">
+              <textarea
+                name="comment"
+                id="comment_id"
+                class="comment_box"
+                placeholder="Leave a comment"
+              ></textarea>
+              <button
+                id="comment_button"
+                type="submit"
+                class="comment_button"
+                onclick="AddComment()"
+              >
+                Add Comment
+              </button>
+              <div id="div_id" class="comment-text"></div>
+            </div>
           </div>
         </div>
       </div>
     </section>
-
     <script src="analysis.js"></script>
   </body>
 </html>
