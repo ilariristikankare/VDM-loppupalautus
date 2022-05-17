@@ -23,6 +23,7 @@ p {
 }
 
 .source {
+  word-break: break-all;
   margin: 1em 3em 1em 3em;
   color: white;
   font-family: "M PLUS 1p", sans-serif;
@@ -33,7 +34,6 @@ p {
 * {
   padding: 0;
   margin: 0;
-  text-decoration: none;
   list-style: none;
   box-sizing: border-box;
 }
@@ -148,7 +148,6 @@ nav ul li a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-
 }
 
 h2 {
@@ -197,7 +196,6 @@ h2 {
 }
 
 @media only screen and (max-width: 1080px) {
-
   .title {
     margin-left: 3em;
     margin-right: 3em;
@@ -205,30 +203,47 @@ h2 {
 }
 
 @media only screen and (max-width: 960px) {
-
   .title {
     margin-left: 2em;
     margin-right: 2em;
     font-size: 2em;
   }
 
-  .hero-container{
+  .hero-container {
     flex-direction: column;
     align-items: center;
+  }
+
+  .modal-header1 {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .modal-header2 {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 }
 
 @media only screen and (max-width: 600px) {
+  .source {
+    font-size: 3vw;
+  }
+
+  .text {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
 
   .title {
     margin-left: 1.5em;
     margin-right: 1.5em;
     font-size: 5vw;
     margin-top: 20vh;
-  }
-
-  .source{
-    width: 50vw;
   }
 
   .logotextimg {
@@ -239,7 +254,7 @@ h2 {
     margin-left: 10px;
   }
 
-  .somephoto{
+  .somephoto {
     width: 90vw;
   }
 }
