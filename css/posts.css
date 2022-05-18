@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Chathura:wght@100;300;400;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Chathura:wght@100;300;400;700;800&family=M+PLUS+1p:wght@300;400&display=swap");
 body {
-  background: black;
+  background: #141414;
   margin: 0;
   font-family: "Chathura", sans-serif;
 }
@@ -15,7 +15,7 @@ p {
 .text {
   margin-left: 3em;
   margin-right: 3em;
-  color: white;
+  color: #cccccc;
   font-family: "M PLUS 1p", sans-serif;
   font-size: 1em;
   font-weight: normal;
@@ -24,7 +24,7 @@ p {
 .source {
   word-break: break-all;
   margin: 1em 3em 1em 3em;
-  color: white;
+  color: #cccccc;
   font-family: "M PLUS 1p", sans-serif;
   font-size: 1em;
   font-weight: normal;
@@ -213,7 +213,7 @@ h2 {
 }
 
 .title {
-  color: white;
+  color: #cccccc;
   font-family: "M PLUS 1p", sans-serif;
   font-size: 2.5em;
   font-weight: bold;

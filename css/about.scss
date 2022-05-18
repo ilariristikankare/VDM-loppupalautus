@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Chathura:wght@100;300;400;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Chathura:wght@100;300;400;700;800&family=M+PLUS+1p:wght@300;400&display=swap");
 body {
-  background: black;
+  background: rgb(20, 20, 20);
   margin: 0;
   font-family: "Chathura", sans-serif;
 }
@@ -133,7 +133,7 @@ nav ul li a:hover {
 }
 
 .about-text {
-  color: white;
+  color: rgb(204,204,204);
   margin-left: 1em;
   margin-right: 1em;
   font-family: "M PLUS 1p", sans-serif;
@@ -142,7 +142,7 @@ nav ul li a:hover {
 }
 
 h2 {
-  color: white;
+  color: rgb(204,204,204);
   margin: 0;
   text-align: center;
 }
@@ -170,7 +170,7 @@ h2 {
 }
 
 .fcf-body {
-  color: white;
+  color: rgb(204,204,204);
   margin-right: 5em;
   margin-left: 2em;
   font-family: "M PLUS 1p", sans-serif;
@@ -183,6 +183,10 @@ h2 {
   min-width: 600px;
   max-width: 600px;
   height: auto;
+}
+
+.amnesty-kuva {
+  width: 600px;
 }
 
 @media only screen and (max-width: 1260px) {
@@ -210,6 +214,9 @@ h2 {
 
   .about-text {
     margin-top: 0;
+  }
+  .amnesty-kuva {
+    width: 60vw;
   }
 }
 
@@ -249,7 +256,7 @@ button {
   font-family: inherit;
   font-size: 20px;
   background: #7c0404;
-  color: white;
+  color: rgb(204,204,204);
   padding: 0.7em 1em;
   padding-left: 0.9em;
   display: flex;

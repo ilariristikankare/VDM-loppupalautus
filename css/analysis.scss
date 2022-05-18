@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Chathura:wght@100;300;400;700;800&family=M+PLUS+1p:wght@300;400&display=swap");
 
 body {
-  background: black;
+  background: rgb(20, 20, 20);
   margin: 0;
   font-family: "Chathura", sans-serif;
 }
@@ -151,7 +151,7 @@ h2 {
 }
 
 .acontent-text {
-  color: white;
+  color: rgb(204,204,204);
   margin-left: 17em;
   margin-right: 17em;
   margin-top: 5em;
@@ -162,7 +162,7 @@ h2 {
 }
 
 .title {
-  color: white;
+  color: rgb(204,204,204);
   margin-top: 5em;
   margin-left: 4.5em;
   margin-right: 4.5em;
@@ -192,15 +192,15 @@ h2 {
   margin-bottom: 10vh;
   display: inline-block;
   padding: 0.35em 1.2em;
-  border: 0.1em solid #ffffff;
-  background-color: #000000;
+  border: 0.1em solid rgb(204,204,204);
+  background-color: rgb(20, 20, 20);
   margin: 0 0.3em 0.3em 0;
   border-radius: 0.12em;
   box-sizing: border-box;
   text-decoration: none;
   font-family: "M PLUS 1p", sans-serif;
   font-weight: 800;
-  color: #ffffff;
+  color: rgb(204,204,204);
   text-align: center;
   transition: all 0.5s;
 }
@@ -209,27 +209,27 @@ h2 {
   margin-bottom: 10vh;
   display: inline-block;
   padding: 0.35em 1.2em;
-  border: 0.1em solid #ffffff;
-  background-color: #000000;
+  border: 0.1em solid rgb(204,204,204);
+  background-color: rgb(20, 20, 20);
   margin: 0 0.3em 0.3em 0;
   border-radius: 0.12em;
   box-sizing: border-box;
   text-decoration: none;
   font-family: "M PLUS 1p", sans-serif;
   font-weight: 800;
-  color: #ffffff;
+  color: rgb(204,204,204);
   text-align: center;
   transition: all 0.5s;
 }
 
 .comment_button:hover {
-  color: #000000;
-  background-color: #ffffff;
+  color: rgb(20, 20, 20);
+  background-color: rgb(204,204,204);
 }
 
 .comment-text {
   text-align: left;
-  color: white;
+  color: rgb(204,204,204);
   margin-top: 3em;
   margin-bottom: 3em;
   font-family: "M PLUS 1p", sans-serif;
@@ -302,5 +302,5 @@ h2 {
 }
 
 .text_div {
-  color: white;
+  color: rgb(204,204,204);
 }
