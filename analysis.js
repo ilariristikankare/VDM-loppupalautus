@@ -1,5 +1,8 @@
 const commentContainer = document.getElementById("allComments");
 
+/* Funktio joka etsii HTML-elementit ja lisää niiden joukkoon uuden tekstiosio, jonka sisältö on sama kuin 
+tekstikentällä ja uuden napin. */
+
 function addComment() {
   const textBox = document.createElement("p");
   textBox.className = "comment-text";
@@ -14,17 +17,14 @@ function addComment() {
   textBox.innerHTML = commentText;
   wrapDiv.append(textBox, likeButton);
   if (commentText === "") {
-    alert("Comment field can't be empty");
+    alert("Comment field can't be empty.");
   } else commentContainer.appendChild(wrapDiv);
 }
 
-function hasClass(elem, className) {
-  return elem.className.split(" ").indexOf(className) > -1;
-}
+/*hakee juuri luodun napin ja lisää sen arvoa painamalla sitä*/
+
 document.getElementById("allComments").addEventListener("click", function (e) {
-  if (hasClass(e.target, "like-button")) {
-    const likeBtnValue = e.target.innerHTML;
-    e.target.innerHTML =
-      likeBtnValue !== "Like" ? Number.parseInt(likeBtnValue) + 1 : 1;
-  }
+  const likeBtnValue = e.target.innerHTML;
+  e.target.innerHTML =
+    likeBtnValue !== "Like" ? Number.parseInt(likeBtnValue) + 1 : 1;
 });

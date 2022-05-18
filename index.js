@@ -1,15 +1,15 @@
 let slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-// Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
+
+/* Funktio, jolla vaihdamme kuvaa ja valittua "palloa". Lisäämme funktiolla indeksiä joka määrää valitun kuvan*/
 
 function showSlides(n) {
   let i;
@@ -25,13 +25,4 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block"; 
   dots[slideIndex-1].className += " active";
-}
-
-function myFunction() {
-  var x = document.getElementById("primary-nav");
-  if (x.className === "primary-nav") {
-    x.className += " responsive";
-  } else {
-    x.className = "primary-nav";
-  }
 }
