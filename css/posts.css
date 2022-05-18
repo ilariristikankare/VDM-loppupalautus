@@ -274,6 +274,9 @@ h2 {
   .source {
     font-size: 3vw;
   }
+  .stockphoto {
+    width: 70vw;
+  }
   .text {
     margin-left: 5vw;
     margin-right: 5vw;
