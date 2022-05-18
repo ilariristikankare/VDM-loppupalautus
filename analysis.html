@@ -202,22 +202,24 @@
               trollin kirjoittaman kommentin, kritiikin tai epäilyksen ja jakaa
               ajatuksen seuraavalle.
             </p>
-            <div class="comment_section">
+            <div class="container" id="div_id">
+              <label for="newComment" name="newComment"
+                >Add your comment below-</label
+              >
               <textarea
+                id="newComment"
                 name="comment"
-                id="comment_id"
                 class="comment_box"
                 placeholder="Leave a comment"
               ></textarea>
               <button
-                id="comment_button"
-                type="submit"
+                id="addComments"
                 class="comment_button"
-                onclick="AddComment()"
+                onclick="addComment()"
               >
                 Add Comment
               </button>
-              <div id="div_id" class="comment-text"></div>
+              <div id="allComments"></div>
             </div>
           </div>
         </div>

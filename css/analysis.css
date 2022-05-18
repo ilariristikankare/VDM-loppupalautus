@@ -237,6 +237,25 @@ h2 {
   transition: all 0.5s;
 }
 
+.like-button {
+  margin-bottom: 10vh;
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #ffffff;
+  background-color: #000000;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  font-family: "M PLUS 1p", sans-serif;
+  font-weight: 800;
+  color: #ffffff;
+  text-align: center;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
 .comment_button:hover {
   color: #000000;
   background-color: #ffffff;
